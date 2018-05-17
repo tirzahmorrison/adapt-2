@@ -8,3 +8,20 @@ body {
   font: 16px / 1 sans-serif;
 }
 
+footer {
+  background-color: #7f7f7f7f;
+}
+
+#nav-bar {
+  border-bottom: 5px solid #444;
+}
+
+#header {
+  color: #000;
+  text-align: center;
+  font-size: 21px;
+  line-height: 1.4em;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 5px solid #444;
+}

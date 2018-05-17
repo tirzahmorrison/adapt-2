@@ -14,29 +14,56 @@
     <nav id="nav-bar">
       <h1>Adapt</h1>
       <div class="left-nav">
-        <p><a href="#">HOME</a></p>
+        <p>
+          <a href="#">HOME</a>
+        </p>
         <div class="dropdown">
-            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">PORTFOLIO
-            <span class="caret"></span></button>
-            <ul class="dropdown-menu">
-                <li><a tabindex="-1" href="#">Portfolio Archive </a></li>
-                <li><a tabindex="-1" href="#">Portfolio With Filter </a></li>
-                <li class="dropdown-submenu">
-                    <a class="test" tabindex="-1" href="#">Portfolio Post Examples <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a tabindex="-1" href="#">Featured Image </a></li>
-                        <li><a tabindex="-1" href="#">Image Slider </a></li>
-                        <li><a tabindex="-1" href="#">Google Map </a></li>
-                        <li><a tabindex="-1" href="#">Video </a></li> 
-                      </ul>
-                    </li>
-                  </ul>  
-        <p><a href="#">FULL_WIDTH</a></p>
-        <p><a href="#">LANDING PAGE</a></p>
-        <p><a href="#">BLOG</a></p>
-        <p><a href="#">CONTACT</a></p>
-        <p><a href="#">DOWNLOAD</a></p>
-      </div>
+          <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">PORTFOLIO
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+            <li>
+              <a tabindex="-1" href="#">Portfolio Archive </a>
+            </li>
+            <li>
+              <a tabindex="-1" href="#">Portfolio With Filter </a>
+            </li>
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Portfolio Post Examples
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a tabindex="-1" href="#">Featured Image </a>
+                </li>
+                <li>
+                  <a tabindex="-1" href="#">Image Slider </a>
+                </li>
+                <li>
+                  <a tabindex="-1" href="#">Google Map </a>
+                </li>
+                <li>
+                  <a tabindex="-1" href="#">Video </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <p>
+            <a href="#">FULL_WIDTH</a>
+          </p>
+          <p>
+            <a href="#">LANDING PAGE</a>
+          </p>
+          <p>
+            <a href="#">BLOG</a>
+          </p>
+          <p>
+            <a href="#">CONTACT</a>
+          </p>
+          <p>
+            <a href="#">DOWNLOAD</a>
+          </p>
+        </div>
     </nav>
 
     <header id="header">
@@ -44,10 +71,17 @@
     </header>
 
     <section class="slide-show">
-      <a href="#" class="back">
-        <</a>
-          <img src="images/vault.jpg">
-          <a href="#" class="forward">></a>
+      <a href="#" class="flex-prev">
+        <span class="fa fa-chevron-left">
+          ::before
+        </span>
+      </a>
+      <img src="images/vault.jpg">
+      <a href="#" class="flex-next">
+        <span class="fa fa-chevron-right">
+          ::before
+        </span>
+      </a>
     </section>
 
     <section class="call-outs">
