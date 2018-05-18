@@ -7,4 +7,6 @@ $(() => {
     nextArrow: ".flex-next",
     prevArrow: ".flex-prev"
   });
+
+  $(".right-nav").superfish();
 })
