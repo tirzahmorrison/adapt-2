@@ -1,5 +1,10 @@
-const main = () => {
-  document.querySelector('h1').textContent += '?'
-}
-
-document.addEventListener('DOMContentLoaded', main)
+$(() => {
+  $(".slide-show div").slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    nextArrow: ".flex-next",
+    prevArrow: ".flex-prev"
+  });
+})
